@@ -4,50 +4,36 @@
 
 1. Hoe vraag je op de command-line documentatie op voor het *commando* `passwd`?
 
-    ```
-    $ COMMANDO
-    UITVOER
-    ```
+   man passwd
 
 2. Hoe vraag je documentatie op voor het *configuratiebestand* `/etc/passwd`?
 
-    ```
-    $ COMMANDO
-    UITVOER
-    ```
+   man 5 /etc/passwd
 
 3. Hoe vraag je een lijst op van alle documentatie die de string `passwd` bevat?
 
-    ```
-    $ COMMANDO
-    UITVOER
-    ```
+   man -k passwd
 
 ## Werken op de command-line
 
 1. Wat is de huidige datum en uur?
-
-    ```
-    $ COMMANDO
-    UITVOER
-    ```
+    
+   date
 
 2. Wat is de huidige directory?
 
-    ```
-    $ COMMANDO
-    UITVOER
-    ```
+   pwd
 
 3. Toon de inhoud van de huidige directory. De uitvoer zou er ongeveer zo moeten uit zien:
 
+   ls
     ```
     $ COMMANDO
     Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
     ```
 
 4. Toon de inhoud van de huidige directory, maar toon voor elk bestand meer informatie en ook "verborgen" bestanden.
-
+    ls -la
     ```
     $ COMMANDO
     total 96
